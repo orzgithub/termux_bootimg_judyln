@@ -5,7 +5,7 @@ if [ ! -f "raw.img" ]; then
 fi
 echo -e "\033[32m-安装运行环境\033[0m"
 pkg i python libjpeg-turbo zlib
-pip install -i https://pypi.doubanio.com/simple/ Pillow
+pip install Pillow
 echo "\033[32m-正在打包开机界面\033[0m"
 mkdir decode
 cd decode
